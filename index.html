@@ -89,7 +89,14 @@
             font-weight: bold;
         }
 
-
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+  .navbar a {
+    flex: none;
+  }
+}
     </style>
 </head>
 <body>
